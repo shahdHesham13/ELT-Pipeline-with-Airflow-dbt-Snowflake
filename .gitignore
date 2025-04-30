@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# DBT - inside data_pipeline/
+dags/data_pipeline/target/
+dags/data_pipeline/dbt_packages/
+dags/data_pipeline/dbt_modules/
+dags/data_pipeline/manifest.json
+dags/data_pipeline/run_results.json
+dags/data_pipeline/dbt.log
+dags/data_pipeline/.user.yml
+dags/data_pipeline/profiles.yml
+
+# Airflow
+logs/
+*.pid
+*.sqlite
+airflow.db
+airflow-webserver.pid
+
+# Docker
+*.log
+*.pid
+*.sock
